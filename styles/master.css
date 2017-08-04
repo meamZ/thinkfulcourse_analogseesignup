@@ -1,0 +1,83 @@
+*{
+  font-family: roboto, sans-serif;
+}
+body{
+  background-color: #298eea;
+}
+.toplogo{
+  height: 35px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.signupbox{
+  width: 320px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+input, button{
+  padding: 15px;
+  display: block;
+}
+input{
+  width: 286px;
+  height: 16px;
+  border: 2px solid #dfdfdf;
+  border-radius: 3px;
+  font-size: 18px;
+}
+button{
+  width: 320px;
+  height: 55px;
+  background-color: #15CD72;
+  border: 1px solid #15CD72;
+  border-radius: 2px;
+  margin-top: 15px;
+  color: white;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+button:hover{
+  background-color: #12a159;
+}
+label{
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+h1{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #606060;
+}
+h4{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.forgotpassword{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.login{
+  font-size: inherit;
+  color: inherit;
+}
